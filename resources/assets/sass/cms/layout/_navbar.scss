@@ -1,0 +1,9 @@
+.navbar {
+    position: relative;
+    background-color: transparent;
+
+
+    &-brand, &-item, &-item img {
+        max-height: 7rem;
+    }
+}

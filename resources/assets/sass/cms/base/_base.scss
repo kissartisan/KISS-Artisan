@@ -1,0 +1,25 @@
+// Fonts
+@import url(https://fonts.googleapis.com/css?family=Raleway:300,400,600);
+
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html {
+    // This defines what 1 rem is
+    // font-size: 62.5%; /* 10px (preferred pixel) / 16px (default browser pixel) = 0.625 */
+    background-color: #fff;
+    color: #636b6f;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 100;
+    margin: 0;
+    margin-bottom: 50rem;
+}
+
+body {
+    box-sizing: border-box;
+}

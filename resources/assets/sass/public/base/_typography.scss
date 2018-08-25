@@ -1,0 +1,19 @@
+.container {
+    font-size: $default-font-size;
+}
+
+.artisan-text {
+    position: relative;
+    font-style: italic;
+    text-decoration: underline;
+}
+
+.emphasis-dot {
+    height: 1.2rem;
+    width: 1.2rem;
+    background-color: $color-primary;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 15%;
+    right: -10%;
+}

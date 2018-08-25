@@ -1,0 +1,13 @@
+@mixin clearfix {
+    &::after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+}
+
+@mixin text-gradient {
+    background-image: linear-gradient(to right, $color-primary-light, $color-primary-dark);
+    -webkit-background-clip: text; // Clip the background to exactly the place where the text is
+    color: transparent;
+}

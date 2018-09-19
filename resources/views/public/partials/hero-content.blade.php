@@ -4,7 +4,7 @@
             <div class="title is-spaced">
                 <p>Keep it simple,</p>
                 <p class="title__keyword">
-                    <s>stupid</s> 
+                    <s>stupid</s>
                     <span class="artisan-text">
                         artisan
                         <span class="emphasis-dot"></span>
@@ -31,7 +31,7 @@
                 ]) }}"></type-writer>
             </div>
             <div class="block">
-                <type-writer :speed="30" :delay="3000" :text="{{ json_encode([
+                <type-writer :speed="30" :delay="4000" :text="{{ json_encode([
                     "The <em>[insert-adjective-here]</em> guy who likes to break things down..."
                 ]) }}"></type-writer>
             </div>

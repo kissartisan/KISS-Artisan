@@ -22,26 +22,19 @@
             delay: Number
         },
 
-        data: {
-            withCursor: false
+        data() {
+            return {
+                withCursor: false
+            }
         },
 
         methods: {
             hideCursor() {
                 this.withCursor = false;
-                alert('Hide cursor! = ' + this.withCursor);
             }
         },
 
-        // watch: {
-        //     hideCursor() {
-        //         this.withCursor = false;
-        //         alert('Hide cursor on watch! = ' + this.withCursor);
-        //     }
-        // },
-
         mounted() {
-            // alert('Example component mounted.');
             console.log('Component mounted.')
         }
     }

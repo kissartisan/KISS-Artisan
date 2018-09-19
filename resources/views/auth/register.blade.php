@@ -1,4 +1,4 @@
-@extends('layouts.cms')
+@extends('layouts.app')
 
 @section('content')
     <section class="hero is-primary">
@@ -12,7 +12,7 @@
     </section>
 
     <div class="columns is-marginless is-centered">
-        <div class="column is-7">
+        <div class="column is-5">
             <div class="card">
                 <header class="card-header">
                     <p class="card-header-title">Register</p>
@@ -25,40 +25,19 @@
 
                         <div class="field is-horizontal">
                             <div class="field-label">
-                                <label class="label">First Name</label>
+                                <label class="label">Name</label>
                             </div>
 
                             <div class="field-body">
                                 <div class="field">
                                     <p class="control">
-                                        <input class="input" id="first_name" type="first_name" name="first_name" value="{{ old('first_name') }}"
+                                        <input class="input" id="name" type="name" name="name" value="{{ old('name') }}"
                                                required autofocus>
                                     </p>
 
-                                    @if ($errors->has('first_name'))
+                                    @if ($errors->has('name'))
                                         <p class="help is-danger">
-                                            {{ $errors->first('first_name') }}
-                                        </p>
-                                    @endif
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="field is-horizontal">
-                            <div class="field-label">
-                                <label class="label">Last Name</label>
-                            </div>
-
-                            <div class="field-body">
-                                <div class="field">
-                                    <p class="control">
-                                        <input class="input" id="last_name" type="last_name" name="last_name" value="{{ old('last_name') }}"
-                                               required autofocus>
-                                    </p>
-
-                                    @if ($errors->has('last_name'))
-                                        <p class="help is-danger">
-                                            {{ $errors->first('last_name') }}
+                                            {{ $errors->first('name') }}
                                         </p>
                                     @endif
                                 </div>

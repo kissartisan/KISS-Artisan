@@ -16,6 +16,6 @@
         </div>
     </section>
     <section class="life">
-        {{-- <life-pie></life-pie> --}}
+        <life-pie></life-pie>
     </section>
 @endsection
